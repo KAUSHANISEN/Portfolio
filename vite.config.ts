@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import { nitro } from "nitro/vite";
 import viteReact from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import tsConfigPaths from "vite-tsconfig-paths";
@@ -21,6 +22,7 @@ export default defineConfig({
       // Default target is node-server. For Cloudflare Workers use:
       // target: "cloudflare-module",
     }),
+    nitro(),
     viteReact(),
   ],
   resolve: {
