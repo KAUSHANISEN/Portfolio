@@ -1,12 +1,9 @@
 import p1 from "@/assets/project-1.jpg";
 import p2 from "@/assets/project-2.jpg";
 import p3 from "@/assets/project-3.jpg";
-import p4 from "@/assets/project-4.jpg";
-import p5 from "@/assets/project-5.jpg";
 import p6 from "@/assets/Hack2skill-Certificate (1).png"; 
 import p7 from "@/assets/aidalert1.png";
 import p8 from "@/assets/aidalert2.png";
-import hero from "@/assets/hero-noir.jpg";
 import tf from "@/assets/taskflow1.png";
 import tf2 from "@/assets/taskflow2.png";
 import tf3 from "@/assets/taskflow3.png";
